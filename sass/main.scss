@@ -5,13 +5,20 @@
 
 // Imports
 @import "helpers/variables";
+@import "helpers/mixin";
+@import "layouts/header.scss";
+@import "components/button";
 
-/* General Style */
+/* -------------------------------------------------- 
+    General Style 
+----------------------------------------------------- */
 html {
     font-size: 62.5%; /* 1rem = 10px */
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: $font;
     font-weight: $regular;
     color: $font-color;
@@ -24,4 +31,8 @@ ul, ol {
 
 ul li {
 	list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
