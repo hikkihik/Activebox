@@ -1,1 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,700,700i");@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i");@import url("https://fonts.googleapis.com/css?family=Cardo:400,400i,700");html{font-size:62.5%}body{font-family:"Raleway",sans-serif;font-weight:400;color:#858a8f}ul,ol{margin:0;padding:0}ul li{list-style:none}
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Cardo:400,400i,700");
+/* General Style */
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */ }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #858a8f; }
+
+ul, ol {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
