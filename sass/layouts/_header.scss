@@ -1,0 +1,79 @@
+/* -------------------------------------------------- 
+    Header
+----------------------------------------------------- */
+.header {
+    position: relative;
+    background: url(../images/banner.jpg) no-repeat center top;
+    @include background-size(cover);
+    height: 75rem;
+    .header-nav {
+        position: fixed;
+        width: 100%;
+        height: 10rem;
+        z-index: 10;
+        @include transition(.3s);
+        .navigation {
+            border-bottom: 1px solid #4e4f65;
+            height: 10rem;
+            .navigation-brand {
+                @include float(left);
+                display: block;
+                margin-top: 3.8rem;
+            }
+            .navigation-menu {
+                @include float(right);
+                position: relative;
+                .navigation-list {
+                    .navigation-item {
+                        display: inline-block;
+                        padding-left: 6rem;
+                        line-height: 10rem;
+                        position: relative;
+                        @include transition(.3s);
+                        a {
+                            color: $nav-color;
+                            font-size: $nav-font-size;
+                            font-weight: $bold;
+                            text-transform: uppercase;                           
+                            text-decoration: none;
+                            @include transition(.3s);
+                            &:hover {
+                                color: $font-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-content {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        .header-heading {
+            font-family: $font-secondary;
+            font-size: $h1-font-size;
+            font-weight: $bold;
+            color: $white;
+            text-transform: uppercase;
+            margin-bottom: 4.5rem;
+        }
+        .header-desc {
+            color: $white;
+            font-size: $h4-font-size;
+            font-weight: $regular;
+            margin-bottom: 8rem;
+            line-height: 1.6;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

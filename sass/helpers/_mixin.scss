@@ -1,0 +1,29 @@
+// Background
+@mixin background-size($size) {
+    -o-background-size: $size;
+    -moz-background-size: $size;
+    -webkit-background-size: $size;
+    background-size: $size;
+}
+
+// Float
+@mixin float($float) {
+    float: $float;
+}
+
+// Transition
+@mixin transition($transition...) {
+    -o-transition: $transition;
+    -moz-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
+// Transfrom
+@mixin transform($transform...) {
+    -o-transform: $transform;
+    -ms-transform: $transform;
+    -moz-transform: $transform;
+    -webkit-transform: $transform;
+    transform: $transform;
+}
