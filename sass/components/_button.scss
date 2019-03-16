@@ -1,0 +1,19 @@
+// Button
+.btn {
+    font-weight: $semi-bold;
+    border: none;
+    text-transform: uppercase;
+    &:hover {
+        color: $white;
+        background-color: #ff2020;
+    }
+}
+
+.btn-color {
+    color: $white;
+    background-color: $primary-color;
+}
+
+.btn-size {
+    padding: 2rem 5.4rem;
+}
