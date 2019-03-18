@@ -1,0 +1,33 @@
+/* -------------------------------------------------- 
+    Features
+----------------------------------------------------- */
+.features {
+    position: relative;
+    padding: 12rem 0rem;
+    .feature {
+        margin-bottom: 7.5rem;
+    }
+    .feature-icon {
+        font-size: 7rem;
+        color: $primary-color;
+    }
+    .feature-content {
+        padding: 0 1.5rem;
+        margin-top: 3.3rem;
+        .feature-heading {
+            font-size: $h5-font-size;
+            font-weight: $bold;
+            color: $black;
+            margin-bottom: 2.8rem;
+            text-transform: uppercase;
+        }
+        .feature-desc {
+            font-size: $font-size;
+            font-weight: $regular;
+            line-height: $line-height;
+        }
+    }
+}
+
+
+
