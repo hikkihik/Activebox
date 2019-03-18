@@ -3,6 +3,9 @@
     font-weight: $semi-bold;
     border: none;
     text-transform: uppercase;
+    outline: none;
+    box-shadow: none;
+    @include transition(background-color, .3s);
     &:hover {
         color: $white;
         background-color: #ff2020;

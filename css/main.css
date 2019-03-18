@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Cardo:400,400i,700");
-
-/* General Style */
-
 /* -------------------------------------------------- 
     Header
 ----------------------------------------------------- */
@@ -78,10 +75,41 @@
       margin-bottom: 8rem;
       line-height: 1.6; }
 
+/* -------------------------------------------------- 
+    Features
+----------------------------------------------------- */
+.features {
+  position: relative;
+  padding: 12rem 0rem; }
+  .features .feature {
+    margin-bottom: 7.5rem; }
+  .features .feature-icon {
+    font-size: 7rem;
+    color: #e84545; }
+  .features .feature-content {
+    padding: 0 1.5rem;
+    margin-top: 3.3rem; }
+    .features .feature-content .feature-heading {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 2.8rem;
+      text-transform: uppercase; }
+    .features .feature-content .feature-desc {
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 2.24rem; }
+
 .btn {
   font-weight: 600;
   border: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  outline: none;
+  box-shadow: none;
+  -o-transition: background-color, 0.3s;
+  -moz-transition: background-color, 0.3s;
+  -webkit-transition: background-color, 0.3s;
+  transition: background-color, 0.3s; }
   .btn:hover {
     color: #fff;
     background-color: #ff2020; }
